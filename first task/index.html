@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Page Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 95%;
+      margin: 40px auto;
+      background-color: #ffffff;
+      padding: 5px;
+    }
+
+    .header {
+      background: #eee;
+      text-align: center;
+      padding: 30px;
+      margin: 10px 0;
+    }
+ .nav{
+      background: #eee;
+      text-align: center;
+      padding: 20px;
+      margin: 10px 0;
+    }
+    .footer {
+      background: #eee;
+      text-align: center;
+      padding: 30px;
+      margin: 10px 0;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+    }
+
+    .left, .right {
+      background: #eee;
+      width: 20%;
+      padding: 100px 8px;
+      text-align: center;
+    }
+
+    .main {
+      background: #eee;
+      width: 55%;
+      padding: 100px 8px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 20px;
+    }
+
+   
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">Header</div>
+    <div class="nav">Navigation Menu</div>
+    
+    <div class="content">
+      <div class="left">Content</div>
+      <div class="main">Main Content</div>
+      <div class="right">Content</div>
+    </div>
+    
+    <div class="footer">Footer</div>
+  </div>
+
+</body>
+</html>
